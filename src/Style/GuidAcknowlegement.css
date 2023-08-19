@@ -1,0 +1,28 @@
+.guid-acknowledgement {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.guid-acknowledgement .font-weight-bold {
+  font-size: 24px;
+  color: #333;
+}
+
+.guid-acknowledgement .card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.guid-acknowledgement .card-body {
+  padding: 20px;
+}
+
+.guid-acknowledgement .card-img-top {
+  margin-bottom: 15px;
+}
+.guid-acknowledgement {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

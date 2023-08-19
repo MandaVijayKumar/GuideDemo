@@ -1,0 +1,73 @@
+/* Modal styles */
+.modal-dialog {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  .modal-header {
+    background-color: #ff5252;
+    color: white;
+    border-bottom: none;
+  }
+  
+  .modal-title {
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .modal-footer {
+    border-top: none;
+  }
+  
+  /* Support resources styles */
+  .resources-list {
+    margin-bottom: 1rem;
+  }
+  
+  .resources-list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .resources-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .resources-list a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .resources-list a:hover {
+    text-decoration: underline;
+  }
+  
+  .message-text {
+    margin-bottom: 1rem;
+  }
+  
+  .family-support-text {
+    margin-top: 1rem;
+  }
+  
+  /* Red button styles */
+  .red-button {
+    background-color: #5ebc4d!important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold !important;
+    border: none !important;
+    
+    /* padding: 10px 20px !important; */
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+  }
+  
+  .red-button:hover {
+    background-color: #e01f1f;
+  }
+  

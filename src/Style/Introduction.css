@@ -1,0 +1,81 @@
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.intro-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 5px;
+}
+
+.card {
+  background: linear-gradient(to bottom, #CDEBFF, #AED6F1); /* soft blue gradient */
+  border: 1px solid #AED6F1; /* Using the same blue for a harmonious look */
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  cursor: pointer;
+  transition: transform 0.3s;
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  padding: 10px !important;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #28527A; /* A deep shade of blue for contrast */
+}
+
+.card-text {
+  font-size: 14px;
+  color: #3D3D3D; /* Dark grey for readability */
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.btn-primary {
+  background-color: #1A857F; /* Bringing in the teal green as an accent color */
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #13756A; /* A slightly darker shade for hover */
+}
+
+.btn-rounded {
+  border-radius: 20px;
+}
+
+.card-icon {
+  font-size: 48px;
+  color: #1A857F; /* Using the teal green for icons to tie in with the overall theme */
+  margin: 10px auto !important;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: #E9ECEF; /* A light grey background for the icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+}

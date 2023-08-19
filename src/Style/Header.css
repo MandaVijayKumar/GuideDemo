@@ -1,0 +1,284 @@
+/* .brand {
+  margin-left: 4rem;
+}
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    color: #000;
+  }
+  
+  .nav-link:hover {
+    color: #5e9693;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+  }
+  
+  .navbar-toggler i {
+    color: #000;
+    font-size: 1.8rem;
+  }
+  
+  .btn {
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: #5e9693;
+    color: #fff;
+    padding: 0.5rem 2rem;
+  }
+  
+  .btn:hover {
+    background-color: #4a9603;
+  }
+  
+  .text-red {
+    color: #dc3545;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar-brand {
+      font-size: 2rem;
+    }
+  
+    .nav-link {
+      font-size: 1.2rem;
+    }
+  
+    .btn {
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  .brand {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .brand h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .brand-text-1 {
+    color: #007bff;
+  }
+  
+  .brand-text-2 {
+    color: #333;
+  }
+  
+  .brand-text-3 {
+    color: #007bff;
+  }
+   */
+   /* Header.css */
+.brand {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: #333;
+  text-decoration: none;
+}
+
+.brand-text-1 {
+  color: #ff9800;
+}
+
+.brand-text-2 {
+  color: #03a9f4;
+}
+
+.brand-text-3 {
+  color: #4caf50;
+}
+.navbar {
+  padding: 0.5rem 1rem !important; /* decrease this as needed */
+}
+
+
+.navbar-toggler {
+  border: none;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff9800;
+}
+
+.navbar-nav .nav-link .svg-inline--fa {
+  margin-right: 5px;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ff9800;
+}
+
+.navbar-nav .nav-link.active .svg-inline--fa {
+  color: #ff9800;
+}
+
+.navbar-nav .nav-link .rounded-circle {
+  border: 2px solid #333;
+}
+
+.btn-primary {
+  background-color: #4caf50 !important;
+  border-color: #4caf50;
+  padding: 5px 10px;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 3px 5px;
+  }
+}
+.brand {
+  font-size: 18px !important; /* Reduced from 20px */
+  font-weight: 400 !important;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-size: 14px; /* Reduced from 16px */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding: 3px; /* Reduced padding for smaller height */
+}
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 12px; /* Reduced from 14px */
+    padding: 2px 4px; /* Reduced padding for smaller height */
+  }
+}
+/* Header.css */
+
+/* Base color scheme */
+.navbar-light {
+  background-color: #1A857F !important;  /* A calm navy blue */
+}
+
+.nav-link {
+  color: #EAECEE !important; /* A light gray for contrast */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transition for smooth hover effect */
+}
+
+.nav-link:hover {
+  color: #E74C3C !important; /* A calming coral for highlight */
+  transform: scale(1.1); /* Makes the link slightly larger on hover */
+}
+.brand-text-1, .brand-text-3 {
+  color: #FFDAB9; /* Peach Puff */
+}
+
+.brand-text-2 {
+  color: #FFA07A; /* Light Salmon */
+}
+
+
+
+/* Animations */
+@keyframes iconBounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+.fa-bars, .faHome, .faCheckCircle, .faComment, .faEnvelope {
+  color: #EAECEE; /* Light gray for the icons */
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover .fa-bars, 
+.nav-item:hover .faHome, 
+.nav-item:hover .faCheckCircle, 
+.nav-item:hover .faComment, 
+.nav-item:hover .faEnvelope {
+  animation: iconBounce 0.4s ease-in-out;
+  color: #E74C3C; /* Highlight the icons in coral on hover */
+}
+/* Header.css (continue or append to existing styles) */
+
+/* Logout Button */
+/* Header.css (continue or append to existing styles) */
+
+/* Logout Button */
+.bp {
+  background-color: #F7F9FA !important; /* Light Gray */
+  border-color: #D4D9DC !important; /* Border for a light 3D effect */
+  color: #333 !; /* Dark text for contrast */
+  transition: background-color 0.3s ease, transform 0.2s ease !important; /* Smooth transition for hover effect */
+}
+
+.bp:hover {
+  background-color: #D4D9DC; /* Darker Gray on hover */
+  border-color: #B0B7BB;
+  transform: scale(1.03); /* Slightly larger on hover */
+  color: #333; /* Dark text to maintain contrast */
+}
+
+/* Experts Login Button */
+.bs {
+  background-color: #1ABC9C !important; /* Teal */
+  border-color: #16A085 !important; /* Slightly darker teal */
+  color: #F7F9FA !important; /* Light text for contrast */
+  transition: background-color 0.3s ease, transform 0.2s ease !important; /* Smooth transition for hover effect */
+}
+
+.bs:hover {
+  background-color: #16A085; /* A bit darker teal on hover */
+  border-color: #12806F;
+  transform: scale(1.03); /* Slightly larger on hover */
+  color: #F7F9FA; /* Light text to maintain contrast on darker teal background */
+}
+
+
+
